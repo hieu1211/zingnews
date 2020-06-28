@@ -96,16 +96,3 @@ body{
 .bot .drop-down{
 	display: none;
 }
-
-
-.slideshow{
-	height: 350px;
-
-
-}
-
-.slideshow img{
-	border-radius: 5px;
-	width: 1000px;
-	height: 350px;	
-}
