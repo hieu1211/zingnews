@@ -1,0 +1,79 @@
+.album{
+	margin: auto;
+}
+
+.album .album-cover{
+	position: relative;
+}
+
+.album .album-cover > div, img{
+	border-radius: 8px;
+}
+
+.album .img-cover{
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+}
+.album .img-cover img{
+	width: 180px;
+	transition-duration: 1s;
+}
+
+.album .overlay-album{
+	width: 180px;
+	height: 180px;
+	background-color: #000;
+	position: absolute;
+	top:0px;
+	left:0px;
+	opacity: 0.6;
+	display: none;
+}
+
+.album i{
+	color:#FFF;
+	font-size: 130%;
+	font-weight: 600;
+	display: none;
+}
+
+.album .fa-play-circle-o{
+	color:#FFF;
+	font-size: 300%;
+	margin: 0px 25px;
+	font-weight: 100;
+
+}
+
+.album .icon-action{
+	width: 180px;
+	height: 180px;
+	position: absolute;
+	top:0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.album:hover .overlay-album{
+	display: inline;
+}
+
+.album:hover i{
+	display: inline;
+}
+
+.album:hover img{
+	transform: scale(1.1);
+}
+
+.album .album-title{
+	margin-top:8px;
+}
+
+.album a{
+	width: auto;
+	height: auto;
+}
