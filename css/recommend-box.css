@@ -1,0 +1,29 @@
+.recommend .header-re{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.recommend .header-re .title-re h2{
+	color: #32323d;
+}
+
+.recommend .header-re .icon-re{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 12px;
+}
+.recommend .header-re i{
+	padding-top: 3px;
+	font-size: 130%;
+	color:#32323d;
+}
+
+.recommend .album-slide {
+	display: flex;
+	flex-direction: row;
+	margin-left: -5px;
+}
