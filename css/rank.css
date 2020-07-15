@@ -1,0 +1,81 @@
+.rank{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.rank .chart{
+}
+
+
+.rank .rank-box{
+	background-color: #13052A;
+	width: 100%;
+	border-radius: 3px;
+	padding: 20px 6px;
+	opacity: 0.9;
+}
+
+.rank .item{
+	display: flex;
+	flex-direction: row;
+	color: #FFF;
+	align-items: center;
+	padding: 8px;
+}
+
+
+.rank .number{
+	font-size: 20px;
+	padding:0 8px;
+}
+
+.rank .info{
+	font-size: 14px;
+	flex-grow: 1;
+}
+
+.rank .song-title{
+	margin-bottom: 8px; 
+	font-weight: bold;
+}
+
+.rank .singer{
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.rank .view-percent{
+	padding: 0 8px;
+}
+
+.rank .img-item{
+	width: 50px;
+	height: 50px;
+	padding: 0 8px ;
+	margin: 0px;
+}
+
+.rank .img-item img{
+	width: 50px;
+}
+
+.rank .button-text{
+	font-size: 12px;
+	padding-top: 15px;
+	color: #FFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.item:hover .overlay{
+	background-color: #13052A;
+	opacity: 0.6;
+}
+
+.singer:hover {
+	color: #8D4BF9;
+}
+
