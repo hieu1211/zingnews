@@ -4,12 +4,13 @@
 	margin-top: 30px;
 }
 
-.rank .chart{
+.rank .chart img{
+	height: 100%;
 }
 
 
 .rank .rank-box{
-	background-color: #13052A;
+	background: #13052A;
 	width: 100%;
 	border-radius: 3px;
 	padding: 20px 6px;
