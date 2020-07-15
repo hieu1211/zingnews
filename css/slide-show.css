@@ -1,9 +1,51 @@
 .slideshow{
 	height: 350px;
+	padding-top: 110px;
+	position: relative;
+	overflow: hidden;
 }
 
-.slideshow img{
+.slideshow .cover-main img{
 	border-radius: 5px;
 	width: 1000px;
 	height: 350px;	
+}
+
+
+.slideshow .mini-img-list ul {
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	bottom:-100px;
+	right:30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+
+.slideshow .mini-img-list li{
+	width: 100%;
+}
+
+
+.slideshow .mini-img-list img{
+	width: 60px;
+	height: 60px;
+	z-index: 1;
+	margin-right: 10px;
+	border: 2px solid transparent;
+}
+
+.slideshow .mini-img-list{
+	transition-duration: 1s;
+}
+
+.slideshow:hover .mini-img-list{
+	transform: translate(0px,-80px);
+}
+
+.slideshow .mini-img-list img:hover {
+	border-color: #FFF;
 }
