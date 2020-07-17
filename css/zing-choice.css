@@ -1,0 +1,97 @@
+.slick-slide{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: auto;
+}
+
+.slick-slide .zing-choice{
+	background-image: url(../img/spotlight.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 320px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.slick-slide .zing-choice .spotlight-img{
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
+.slick-slide .zing-choice img{
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	transition-duration: 1s;
+}
+
+
+.slick-slide .zing-choice .overlay{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	background-color: #000;
+	top:0;
+	left: 0;
+	border-radius: 100px;
+	opacity: 0.2;
+	visibility: hidden;
+}
+
+.slick-slide .zing-choice .spotlight-img i{
+	position: absolute;
+	color: #FFF;
+	font-size: 50px;
+	visibility: hidden;
+}
+
+.slick-slide .zing-choice:hover .overlay, .spotlight-img i{
+	visibility: visible;
+}
+
+.slick-slide .zing-choice:hover .spotlight-img i{
+	visibility: visible;
+}
+
+.slick-slide .zing-choice .spotlight-img:hover img{
+	transform: scale(1.1);
+}
+
+.slick-slide .zing-choice .card-info{
+	margin-right: 12px;
+}
+
+
+.slick-slide .zing-choice .card-info .spotlight-badge{
+	height: 18px;
+	width: 100px;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,16,214,1) 0%, rgba(199,23,227,1) 35%, rgba(113,3,201,1) 100%);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.slick-slide .zing-choice .card-info .spotlight-badge i::after,i{
+	content: ' ZING CHOICE';
+	font-size: 11px;
+	font-weight: bold;
+	color: #EEE;
+
+}
+
+.slick-slide .zing-choice .card-info .name-singer{
+	text-align: right;
+	margin-top: 8px;
+	font-size: 120%;
+}
+
