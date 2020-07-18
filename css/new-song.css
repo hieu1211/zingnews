@@ -1,0 +1,144 @@
+.new-song{
+	display: flex;
+	flex-direction: column;
+}
+
+.new-song .list-song{
+	display: flex;
+	flex-direction: row;
+}
+
+.new-song .song-item{
+	width: 300px;
+	height: 125px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.new-song .song-item .song-cover{
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.new-song .song-item img{
+	height: 125px;
+	transition-duration: 1s;
+}
+
+.new-song .song-item .song-overlay{
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+	display: none;
+}
+
+.song-item .song-cover i{
+	position: absolute;
+	font-size: 40px;
+	visibility: hidden;
+}
+
+.song-item:hover .song-overlay{
+	display: inline;
+}
+
+.song-item:hover .song-cover i{
+	visibility: visible;
+}
+
+.song-item:hover .song-cover i{
+	visibility: visible;
+}
+
+.song-item .song-cover:hover img{
+	transform: scale(1.1);
+}
+
+/*------------------------------------------------------------------------*/
+
+.new-song .song-item .song-info{
+	position: relative;
+	margin-left: 15px;
+	width: 175px;
+	text-align: left;
+}
+
+.new-song .song-info .song-title{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.new-song .song-info .name{
+	margin-top: 5px;
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.new-song .song-info .name:hover {
+	color: #781AF3;
+}
+
+/*------------------------------------------------------------------------*/
+
+
+.new-song  .song-item .order{
+	position: absolute;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: rgba(102,69,193,0.4);
+	font-size: 50px;
+	font-weight: 900;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: normal;
+	color: #FFF;
+	bottom: 0;
+	left: 0;
+}
+
+.new-song .song-info .date{
+	right: 0;
+	color: #dbdbdb;
+	position: absolute;
+	font-size: 12px;
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+.new-song .header-re{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.new-song .header-re .title-re h2{
+	color: #32323d;
+	font-weight: bold;
+}
+
+.new-song .header-re .icon-re{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 12px;
+}
+.new-song .header-re i{
+	padding-top: 3px;
+	font-size: 130%;
+	color:#32323d;
+}
