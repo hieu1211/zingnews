@@ -1,14 +1,14 @@
-.new-song{
+.new-release{
 	display: flex;
 	flex-direction: column;
 }
 
-.new-song .list-song{
+.new-release .list-song{
 	display: flex;
 	flex-direction: row;
 }
 
-.new-song .song-item{
+.new-release .song-item{
 	width: 300px;
 	height: 125px;
 	padding: 20px;
@@ -17,7 +17,7 @@
 	
 }
 
-.new-song .song-item .song-cover{
+.new-release .song-item .song-cover{
 	height: 100%;
 	position: relative;
 	display: flex;
@@ -27,12 +27,12 @@
 	border-radius: 8px;
 }
 
-.new-song .song-item .song-cover img{
+.new-release .song-item .song-cover img{
 	height: 100%;
 	transition-duration: 1s;
 }
 
-.new-song .song-item .song-overlay{
+.new-release .song-item .song-overlay{
 	height: 100%;
 	width: 125px;
 	background-color: #000;
@@ -64,30 +64,30 @@
 
 /*------------------------------------------------------------------------*/
 
-.new-song .song-item .song-info{
+.new-release .song-item .song-info{
 	position: relative;
 	margin-left: 15px;
 	width: 175px;
 	text-align: left;
 }
 
-.new-song .song-info .song-title{
+.new-release .song-info .song-title{
 	font-weight: bold;
 	font-size: 17px;
 }
 
-.new-song .song-info .name{
+.new-release .song-info .name{
 	margin-top: 5px;
 	font-size: 12px;
 	opacity: 0.6;
 }
 
-.new-song .song-info .name:hover {
+.new-release .song-info .name:hover {
 	color: #781AF3;
 }
 
 
-.new-song  .song-item .order{
+.new-release  .song-item .order{
 	position: absolute;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: rgba(102,69,193,0.4);
@@ -101,7 +101,7 @@
 	left: 0;
 }
 
-.new-song .song-info .date{
+.new-release .song-info .date{
 	right: 0;
 	color: #000;
 	opacity: 0.5;
@@ -115,18 +115,18 @@
 
 /*------------------------------------------------------------------------*/
 
-.new-song .header-re{
+.new-release .header-re{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
 
-.new-song .header-re .title-re h2{
+.new-release .header-re .title-re h2{
 	color: #32323d;
 	font-weight: bold;
 }
 
-.new-song .header-re .icon-re{
+.new-release .header-re .icon-re{
 	flex-grow: 1;
 	display: flex;
 	flex-direction: row;
@@ -134,7 +134,7 @@
 	justify-content: flex-end;
 	margin-right: 12px;
 }
-.new-song .header-re i{
+.new-release .header-re i{
 	padding-top: 3px;
 	font-size: 130%;
 	color:#32323d;
